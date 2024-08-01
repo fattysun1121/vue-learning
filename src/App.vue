@@ -49,4 +49,8 @@ main {
   padding: 0.4rem 3.2rem;
   border-radius: 3.2rem;
 }
+
+.short-p {
+  width: 25rem;
+}
 </style>

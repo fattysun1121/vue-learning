@@ -1,8 +1,8 @@
 <template>
   <div class="container">
     <div class="left-col">
-      <h1>Discover <br> And Collect <br> Rare NFTs</h1>
-      <p>The most secure marketplace for buying <br> and selling unique crypto assets.</p>
+      <h1>Discover And Collect Rare NFTs</h1>
+      <p class="short-p">The most secure marketplace for buying and selling unique crypto assets.</p>
       <div class="buttons">
         <Button class="button" id="buy-button">BUY NFTS</Button>
         <Button class="button" id="sell-button">SELL NFTS</Button>
@@ -39,8 +39,7 @@ import { Button } from '@/components/ui/button'
 .left-col {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  gap: 0.5rem;
+  gap: 2rem;
 }
 
 .right-col {
@@ -54,6 +53,7 @@ import { Button } from '@/components/ui/button'
   display: flex;
   justify-content: space-between;
 }
+
 img {
   width: 100%;
   height: 100%;
@@ -63,6 +63,7 @@ h1 {
   font-size: 4.375rem;
   font-weight: bold;
   line-height: 4rem;
+  width: 25rem;
 }
 
 </style>
